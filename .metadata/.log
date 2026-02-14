@@ -1,0 +1,201 @@
+!SESSION 2026-02-14 12:05:49.248 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-02-14 12:07:13.645
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-02-14 12:07:13.649
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-02-14 12:07:13.650
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-02-14 12:07:13.663
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-14 12:07:13.664
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\moham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:14.901
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:14.902
+!MESSAGE idf_tools.py path: null/tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:14.903
+!MESSAGE idf_tools.py path doesn't exist
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:14.904
+!MESSAGE [C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Git\cmd;C:\Program Files\CMake\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin]
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:15.548
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.1.0/
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:15.614
+!MESSAGE Executing C:/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.3.1\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.505
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.505
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.507
+!MESSAGE Key: ESP_ROM_ELF_DIR Value: C:\Espressif\tools\esp-rom-elfs\20240305\
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.507
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf5.3_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.508
+!MESSAGE Key: ESP_IDF_VERSION Value: 5.3
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.508
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.3_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.3.1\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.508
+!MESSAGE Key: IDF_DEACTIVATE_FILE_PATH Value: C:\Users\moham\AppData\Local\Temp\tmp916onc76idf_13604
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.509
+!MESSAGE Executing C:\Espressif\python_env\idf5.3_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.3.1\tools\idf.py --version
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:18.510
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=ELHIBER_LAPTOP, LOCALAPPDATA=C:\Users\moham\AppData\Local, PROCESSOR_LEVEL=6, RegionCode=NA, USERDOMAIN=ELHIBER_LAPTOP, LOGONSERVER=\\ELHIBER_LAPTOP, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:/Espressif, SystemDrive=C:, OneDrive=C:\Users\moham\OneDrive, APPDATA=C:\Users\moham\AppData\Roaming, USERNAME=moham, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Git\cmd;C:\Program Files\CMake\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin, EFC_19320_1592913036=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, OneDriveConsumer=C:\Users\moham\OneDrive, COMPUTERNAME=ELHIBER_LAPTOP, OnlineServices=Online Services, platformcode=KV, PROCESSOR_REVISION=ba03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\moham, SystemRoot=C:\windows, TEMP=C:\Users\moham\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\moham, TMP=C:\Users\moham\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.581
+!MESSAGE Updating environment variables with key:ESP_IDF_VERSION value:5.3.1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.581
+!MESSAGE Updating environment variables with key:GIT_PATH value:C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.610
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.627
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.652
+!MESSAGE Updating environment variables with key:IDF_PATH value:C:/Espressif/frameworks/esp-idf-v5.3.1/
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.669
+!MESSAGE Updating environment variables with key:IDF_PYTHON_ENV_PATH value:C:\Espressif\python_env\idf5.3_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.692
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.709
+!MESSAGE Updating environment variables with key:PATH value:C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.3_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.3.1\tools;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Git\cmd;C:\Program Files\CMake\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.736
+!MESSAGE Updating environment variables with key:PYTHON_EXE_PATH value:C:/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.770
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.770
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.776
+!MESSAGE Executing C:\Espressif\python_env\idf5.3_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.3.1\tools\idf.py --list-targets
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:27.776
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=ELHIBER_LAPTOP, LOCALAPPDATA=C:\Users\moham\AppData\Local, PROCESSOR_LEVEL=6, RegionCode=NA, USERDOMAIN=ELHIBER_LAPTOP, LOGONSERVER=\\ELHIBER_LAPTOP, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:/Espressif, SystemDrive=C:, OneDrive=C:\Users\moham\OneDrive, APPDATA=C:\Users\moham\AppData\Roaming, USERNAME=moham, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Git\cmd;C:\Program Files\CMake\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin, EFC_19320_1592913036=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, OneDriveConsumer=C:\Users\moham\OneDrive, COMPUTERNAME=ELHIBER_LAPTOP, OnlineServices=Online Services, platformcode=KV, PROCESSOR_REVISION=ba03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\moham, SystemRoot=C:\windows, TEMP=C:\Users\moham\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\moham, TMP=C:\Users\moham\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.171
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.171
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.3.1//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.183
+!MESSAGE [C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.3.1//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.645
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 4.0.2. To use it, run 'C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.3.1\tools\idf_tools.py export --prefer-system'
+WARNING: The following issue occurred while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.3_py3.11_env\\idf_version.txt'. (Diagnostic information. It can be ignored.)
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20240305\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.3_py3.11_env
+ESP_IDF_VERSION=5.3
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.3_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.3.1\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\moham\AppData\Local\Temp\tmpk8ih2ydlidf_2404
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.645
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.3_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.3.1\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:29.645
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.3_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.3.1\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:30.585
+!MESSAGE Executing C:\Espressif\python_env\idf5.3_py3.11_env/Scripts/python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:30.586
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=ELHIBER_LAPTOP, LOCALAPPDATA=C:\Users\moham\AppData\Local, PROCESSOR_LEVEL=6, RegionCode=NA, USERDOMAIN=ELHIBER_LAPTOP, LOGONSERVER=\\ELHIBER_LAPTOP, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, IDF_TOOLS_PATH=C:/Espressif, SystemDrive=C:, OneDrive=C:\Users\moham\OneDrive, APPDATA=C:\Users\moham\AppData\Roaming, USERNAME=moham, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Git\cmd;C:\Program Files\CMake\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin, EFC_19320_1592913036=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, OneDriveConsumer=C:\Users\moham\OneDrive, COMPUTERNAME=ELHIBER_LAPTOP, OnlineServices=Online Services, platformcode=KV, PROCESSOR_REVISION=ba03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\moham, SystemRoot=C:\windows, TEMP=C:\Users\moham\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\moham, TMP=C:\Users\moham\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=12, windir=C:\windows, =::=::\, ZES_ENABLE_SYSMAN=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:58.446
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.3.1/
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:07:58.504
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.3.1/
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:00.061
+!MESSAGE ESP-IDF v5.3.1-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:23.964
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.542
+!MESSAGE Project Name:: Habibi_Hardware
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.543
+!MESSAGE Project:: P/Habibi_Hardware
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.555
+!MESSAGE toolchain path: C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.565
+!MESSAGE toolchain path: C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20240530\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.909
+!MESSAGE C:\Users\moham\Habibi_Hardware\Habibi_Hardware\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.936
+!MESSAGE Project Name:: Habibi_Hardware
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.937
+!MESSAGE Project:: P/Habibi_Hardware
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.943
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:24.949
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:08:25.091
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:09:39.080
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:09:39.082
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:09:39.089
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:09:39.097
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-02-14 12:09:39.102
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
