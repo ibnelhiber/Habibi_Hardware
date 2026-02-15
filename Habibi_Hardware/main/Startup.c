@@ -13,10 +13,11 @@ void Startup()
 
 	printf("Startup rtc_startup_reason=%lu\n", rtc_startup_reason);
 
+	printf("Entering Clean Code!\n");
+
 	if(rtc_startup_reason == DATA_CORRUPTION)
 	{
 		printf("Recovering from corrupted data\n");
-		printf("Entering Clean Code!\n");
 		if (wifi_connect_blocking() == ESP_OK) 
 		{
 			github_ota_cfg_t cfg = {
