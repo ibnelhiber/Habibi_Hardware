@@ -11,7 +11,6 @@ void Startup()
 {
 	printf("Startup rtc_startup_reason=%lu\n", rtc_startup_reason);
 	
-	ulp_flags = 0;
 	ulp_dutyCycle = 0;
 	ulp_dataCheckedCount = 0;
 

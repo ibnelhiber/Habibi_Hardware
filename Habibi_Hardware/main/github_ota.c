@@ -49,6 +49,7 @@ esp_err_t github_ota_flash_from_url(const github_ota_cfg_t *cfg)
         ESP_LOGW(TAG, "OTA successful");
         if (cfg->reboot_after_success) {
             ESP_LOGW(TAG, "Rebooting...");
+            ulp_flags = 0;
             esp_restart();
         }
         return ESP_OK;
