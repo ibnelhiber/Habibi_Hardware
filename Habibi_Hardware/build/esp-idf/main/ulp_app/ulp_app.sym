@@ -1,19 +1,19 @@
-__clz_tab R 7e4 100
+__clz_tab R 7f4 100
 __clzsi2 T 52a 3a
 __fixunsdfsi T 47a 64
 __floatunsidf T 4de 4c
 __muldf3 T 18 462
 __stack_top B 1000 
 __start T 4 14
-dataCheckedCount B 8f8 4
-dutyCycle B 8fc 4
-flags B 900 4
-ledVal B 8f0 4
-main T 576 22a
+dataCheckedCount B 908 4
+dutyCycle B 90c 4
+flags B 910 4
+ledVal B 900 4
+main T 576 238
 reset_vector T 0 
 RTCCNTL A 8000 
 SENS A c800 
-ulp_riscv_halt T 7c0 24
-ulp_riscv_rescue_from_monitor T 7a0 14
-ulp_riscv_wakeup_main_processor T 7b4 c
-validatedDutyCycle B 8f4 4
+ulp_riscv_halt T 7ce 24
+ulp_riscv_rescue_from_monitor T 7ae 14
+ulp_riscv_wakeup_main_processor T 7c2 c
+validatedDutyCycle B 904 4

@@ -180,7 +180,7 @@ LOAD C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/
 END GROUP
                 0x00000000                        . = ORIGIN (ram)
 
-.text           0x00000000      0x7e4
+.text           0x00000000      0x7f2
  *ulp_riscv_vectors.S.obj(.text.vectors)
  .text.vectors  0x00000000        0x4 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_vectors.S.obj
                 0x00000000                reset_vector
@@ -199,29 +199,29 @@ END GROUP
  .text.ulp_riscv_delay_cycles
                 0x00000564       0x12 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
  .text.startup.main
-                0x00000576      0x22a CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000576      0x238 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
                 0x00000576                main
  .text.ulp_riscv_rescue_from_monitor
-                0x000007a0       0x14 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007a0                ulp_riscv_rescue_from_monitor
+                0x000007ae       0x14 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007ae                ulp_riscv_rescue_from_monitor
  .text.ulp_riscv_wakeup_main_processor
-                0x000007b4        0xc CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007b4                ulp_riscv_wakeup_main_processor
+                0x000007c2        0xc CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007c2                ulp_riscv_wakeup_main_processor
  .text.ulp_riscv_halt
-                0x000007c0       0x24 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007c0                ulp_riscv_halt
+                0x000007ce       0x24 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007ce                ulp_riscv_halt
 
-.rodata         0x000007e4      0x100
+.rodata         0x000007f4      0x100
  *(.rodata)
- .rodata        0x000007e4      0x100 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
-                0x000007e4                __clz_tab
+ .rodata        0x000007f4      0x100 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+                0x000007f4                __clz_tab
  *(.rodata*)
 
-.srodata.cst8   0x000008e8        0x8
- .srodata.cst8  0x000008e8        0x8 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+.srodata.cst8   0x000008f8        0x8
+ .srodata.cst8  0x000008f8        0x8 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
 
-.rela.dyn       0x000008f0        0x0
- .rela.text     0x000008f0        0x0 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+.rela.dyn       0x00000900        0x0
+ .rela.text     0x00000900        0x0 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
 
 .data
  *(.data)
@@ -229,24 +229,24 @@ END GROUP
  *(.sdata)
  *(.sdata*)
 
-.bss            0x000008f0       0x14
+.bss            0x00000900       0x14
  *(.bss)
  *(.bss*)
  *(.sbss)
  *(.sbss*)
- .sbss.ledVal   0x000008f0        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f0                ledVal
+ .sbss.ledVal   0x00000900        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000900                ledVal
  .sbss.validatedDutyCycle
-                0x000008f4        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f4                validatedDutyCycle
+                0x00000904        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000904                validatedDutyCycle
  .sbss.dataCheckedCount
-                0x000008f8        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f8                dataCheckedCount
+                0x00000908        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000908                dataCheckedCount
  .sbss.dutyCycle
-                0x000008fc        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008fc                dutyCycle
- .sbss.flags    0x00000900        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x00000900                flags
+                0x0000090c        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x0000090c                dutyCycle
+ .sbss.flags    0x00000910        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000910                flags
                 0x00001000                        __stack_top = (ORIGIN (ram) + LENGTH (ram))
 OUTPUT(ulp_app.elf elf32-littleriscv)
 
