@@ -59,7 +59,7 @@ void PWMTask(void* param)
 	while(1)
 	{
 		printf("Entered PWM Loop\n");
-		printf("%ld\n", dataCheckedCount);
+		printf("Data Checked Count: %ld\n", dataCheckedCount);
 
 		if((dataCheckedCount != ulp_dataCheckedCount) && (ulp_flags & DATA_VALID_BIT))
 		{
