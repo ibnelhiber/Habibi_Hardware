@@ -1,0 +1,26 @@
+[1/17] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\moham\Habibi_Hardware\Habibi_Hardware\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5260 bytes. 0x2da0 bytes (36%) free.
+[2/15] Performing build step for 'ulp_app'
+[1/5] Building C object CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+[2/5] Linking C executable ulp_app.elf
+[3/5] Generating ulp_app.bin
+[4/5] Generating ulp_app.sym
+[5/5] Generating ulp_app.ld, ulp_app.h
+[3/13] Generating ../../ulp_app.bin.S
+[4/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/PWM.c.obj
+[6/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/CalculateSignal.c.obj
+[7/13] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/ulp_app.bin.S.obj
+[8/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Startup.c.obj
+[9/13] Linking C static library esp-idf\main\libmain.a
+[10/13] Generating ld/sections.ld
+[11/13] Linking CXX executable app-template.elf
+[12/13] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/app-template.bin
+[13/13] cmd.exe /C "cd /D C:\Users\moham\Habibi_Hardware\Habibi_Hardware\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/partition_table/partition-table.bin C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/app-template.bin"
+app-template.bin binary size 0xf5a10 bytes. Smallest app partition is 0x300000 bytes. 0x20a5f0 bytes (68%) free.

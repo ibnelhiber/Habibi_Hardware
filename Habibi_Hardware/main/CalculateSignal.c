@@ -15,8 +15,6 @@ void CalculateDutyCycleTask(void* param)
 	runInfo->dutyCycle = FIFTY_PERCENT_DUTY;
 	ulp_dutyCycle = runInfo->dutyCycle;
 
-	xSemaphoreGive(pwm_sem); 
-
 	while(1)
 	{
 		printf("Entered CalculateDutyCycleTask!\n");
@@ -24,14 +22,12 @@ void CalculateDutyCycleTask(void* param)
 		{
 			runInfo->dutyCycle = 0;
 			ulp_dutyCycle = runInfo->dutyCycle;
-			xSemaphoreGive(pwm_sem); 
 		}
 
 		if(runInfo->runTime == injectFaultTime)
 		{
 			runInfo->dutyCycle = HUNDRED_PERCENT_DUTY;
 			ulp_dutyCycle = runInfo->dutyCycle;
-			xSemaphoreGive(pwm_sem); 
 		}
 
 		printf("Current Duty Cycle: %ld\n", runInfo->dutyCycle);

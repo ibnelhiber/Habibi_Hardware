@@ -67,8 +67,6 @@ int main(void)
                 ulp_riscv_gpio_output_disable(PWM_GPIO);
                 ulp_riscv_gpio_deinit(PWM_GPIO);
 
-                ulp_riscv_halt();
-
                 break;
             }
 

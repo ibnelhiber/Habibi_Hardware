@@ -16,14 +16,13 @@ RTC_DATA_ATTR uint32_t rtc_startup_reason = NORMAL_STARTUP;
 void app_main(void)
 {
     Startup();
-
-    pwm_sem = xSemaphoreCreateBinary();
-    static RunInfo runInfo;
-    runInfo.runTime = 60;
-
+    
     ESP_ERROR_CHECK(ulp_riscv_load_binary(bin_start, (bin_end - bin_start)));
     ulp_set_wakeup_period(0, 500000); // 500 ms
     ESP_ERROR_CHECK(ulp_riscv_run());
+
+    static RunInfo runInfo;
+    runInfo.runTime = 60;
 
     xTaskCreate(CalculateDutyCycleTask, "Decides the duty cycle", 4096, &runInfo, 18, NULL);
     xTaskCreate(PWMTask, "Generates PWM signal", 4096, &runInfo, 14, NULL);

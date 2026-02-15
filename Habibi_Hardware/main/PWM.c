@@ -69,8 +69,8 @@ void PWMTask(void* param)
 		if((dataCheckedCount != ulp_dataCheckedCount) && !(ulp_flags & DATA_VALID_BIT))
 		{
 			gpio_set_level(LED_PIN, 0);  
-			ulp_flags |= TAKE_CONTROL_BIT;
 			rtc_startup_reason = DATA_CORRUPTION;
+			ulp_flags |= TAKE_CONTROL_BIT;
 			esp_sleep_enable_ulp_wakeup(); 
 			esp_deep_sleep_start();
 		}
