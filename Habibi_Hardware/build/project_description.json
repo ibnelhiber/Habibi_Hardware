@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "app-template",
-    "project_version":    "725133c-dirty",
+    "project_version":    "cc0f270-dirty",
     "project_path":       "C:/Users/moham/Habibi_Hardware/Habibi_Hardware",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build",
