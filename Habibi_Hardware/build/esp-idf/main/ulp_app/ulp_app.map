@@ -4,8 +4,8 @@ C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../li
                               CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj (__muldf3)
 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
                               CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj (__fixunsdfsi)
-C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
-                              CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj (__floatunsidf)
+C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+                              CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj (__floatsidf)
 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
                               C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o) (__clzsi2)
 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
@@ -132,8 +132,8 @@ Discarded input sections
  .bss           0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .data          0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .bss           0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .data          0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .bss           0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .bss           0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .data          0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .bss           0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .text          0x00000000        0x0 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
@@ -180,7 +180,7 @@ LOAD C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/
 END GROUP
                 0x00000000                        . = ORIGIN (ram)
 
-.text           0x00000000      0x7e4
+.text           0x00000000      0x80a
  *ulp_riscv_vectors.S.obj(.text.vectors)
  .text.vectors  0x00000000        0x4 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_vectors.S.obj
                 0x00000000                reset_vector
@@ -191,37 +191,37 @@ END GROUP
                 0x00000018                __muldf3
  .text          0x0000047a       0x64 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
                 0x0000047a                __fixunsdfsi
- .text          0x000004de       0x4c C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
-                0x000004de                __floatunsidf
- .text          0x0000052a       0x3a C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
-                0x0000052a                __clzsi2
+ .text          0x000004de       0x66 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+                0x000004de                __floatsidf
+ .text          0x00000544       0x3a C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+                0x00000544                __clzsi2
  *(.text*)
  .text.ulp_riscv_delay_cycles
-                0x00000564       0x12 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x0000057e       0x12 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
  .text.startup.main
-                0x00000576      0x22a CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x00000576                main
+                0x00000590      0x236 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000590                main
  .text.ulp_riscv_rescue_from_monitor
-                0x000007a0       0x14 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007a0                ulp_riscv_rescue_from_monitor
+                0x000007c6       0x14 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007c6                ulp_riscv_rescue_from_monitor
  .text.ulp_riscv_wakeup_main_processor
-                0x000007b4        0xc CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007b4                ulp_riscv_wakeup_main_processor
+                0x000007da        0xc CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007da                ulp_riscv_wakeup_main_processor
  .text.ulp_riscv_halt
-                0x000007c0       0x24 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
-                0x000007c0                ulp_riscv_halt
+                0x000007e6       0x24 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000007e6                ulp_riscv_halt
 
-.rodata         0x000007e4      0x100
+.rodata         0x0000080c      0x100
  *(.rodata)
- .rodata        0x000007e4      0x100 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
-                0x000007e4                __clz_tab
+ .rodata        0x0000080c      0x100 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+                0x0000080c                __clz_tab
  *(.rodata*)
 
-.srodata.cst8   0x000008e8        0x8
- .srodata.cst8  0x000008e8        0x8 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+.srodata.cst8   0x00000910        0x8
+ .srodata.cst8  0x00000910        0x8 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
 
-.rela.dyn       0x000008f0        0x0
- .rela.text     0x000008f0        0x0 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+.rela.dyn       0x00000918        0x0
+ .rela.text     0x00000918        0x0 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
 
 .data
  *(.data)
@@ -229,24 +229,24 @@ END GROUP
  *(.sdata)
  *(.sdata*)
 
-.bss            0x000008f0       0x14
+.bss            0x00000918       0x14
  *(.bss)
  *(.bss*)
  *(.sbss)
  *(.sbss*)
- .sbss.ledVal   0x000008f0        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f0                ledVal
+ .sbss.ledVal   0x00000918        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000918                ledVal
  .sbss.validatedDutyCycle
-                0x000008f4        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f4                validatedDutyCycle
+                0x0000091c        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x0000091c                validatedDutyCycle
  .sbss.dataCheckedCount
-                0x000008f8        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008f8                dataCheckedCount
+                0x00000920        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000920                dataCheckedCount
  .sbss.dutyCycle
-                0x000008fc        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x000008fc                dutyCycle
- .sbss.flags    0x00000900        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
-                0x00000900                flags
+                0x00000924        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000924                dutyCycle
+ .sbss.flags    0x00000928        0x4 CMakeFiles/ulp_app.dir/C_/Users/moham/Habibi_Hardware/Habibi_Hardware/main/ULP/ulp_main.c.obj
+                0x00000928                flags
                 0x00001000                        __stack_top = (ORIGIN (ram) + LENGTH (ram))
 OUTPUT(ulp_app.elf elf32-littleriscv)
 
@@ -256,7 +256,7 @@ OUTPUT(ulp_app.elf elf32-littleriscv)
  .comment       0x0000002f       0x30 CMakeFiles/ulp_app.dir/C_/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
  .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+ .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .comment       0x0000002f       0x30 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
@@ -275,36 +275,36 @@ OUTPUT(ulp_app.elf elf32-littleriscv)
  .riscv.attributes
                 0x00000126       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .riscv.attributes
-                0x0000016a       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+                0x0000016a       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .riscv.attributes
                 0x000001ae       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .riscv.attributes
                 0x000001f2       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
-.debug_info     0x00000000      0xce4
+.debug_info     0x00000000      0xcef
  .debug_info    0x00000000      0x6a4 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_info    0x000006a4      0x1ad C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .debug_info    0x00000851      0x25d C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .debug_info    0x00000aae      0x150 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
- .debug_info    0x00000bfe       0xe6 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+ .debug_info    0x00000851      0x268 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .debug_info    0x00000ab9      0x150 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+ .debug_info    0x00000c09       0xe6 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
-.debug_abbrev   0x00000000      0x584
+.debug_abbrev   0x00000000      0x585
  .debug_abbrev  0x00000000      0x185 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_abbrev  0x00000185      0x162 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .debug_abbrev  0x000002e7      0x163 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .debug_abbrev  0x0000044a       0xca C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x00000514       0x70 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+ .debug_abbrev  0x000002e7      0x164 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .debug_abbrev  0x0000044b       0xca C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000515       0x70 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
 .debug_loclists
-                0x00000000      0x975
+                0x00000000      0x97e
  .debug_loclists
                 0x00000000      0x7ee C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_loclists
                 0x000007ee       0x90 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .debug_loclists
-                0x0000087e       0xb3 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+                0x0000087e       0xbc C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .debug_loclists
-                0x00000931       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+                0x0000093a       0x44 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
 
 .debug_aranges  0x00000000       0x98
  .debug_aranges
@@ -312,54 +312,54 @@ OUTPUT(ulp_app.elf elf32-littleriscv)
  .debug_aranges
                 0x00000020       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .debug_aranges
-                0x00000040       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+                0x00000040       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .debug_aranges
                 0x00000060       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .debug_aranges
                 0x00000080       0x18 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
 .debug_rnglists
-                0x00000000      0x18f
+                0x00000000      0x18c
  .debug_rnglists
                 0x00000000      0x135 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_rnglists
                 0x00000135       0x16 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .debug_rnglists
-                0x0000014b       0x2e C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+                0x0000014b       0x2b C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .debug_rnglists
-                0x00000179       0x16 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+                0x00000176       0x16 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
 
-.debug_line     0x00000000     0x14b5
+.debug_line     0x00000000     0x14cb
  .debug_line    0x00000000      0xfa3 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_line    0x00000fa3      0x1bb C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .debug_line    0x0000115e      0x239 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .debug_line    0x00001397       0xdf C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
- .debug_line    0x00001476       0x3f C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+ .debug_line    0x0000115e      0x24f C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .debug_line    0x000013ad       0xdf C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000148c       0x3f C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
-.debug_str      0x00000000      0x4c6
- .debug_str     0x00000000      0x4c6 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
+.debug_str      0x00000000      0x4c4
+ .debug_str     0x00000000      0x4c4 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
                                 0x3b7 (size before relaxing)
- .debug_str     0x000004c6      0x1a6 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .debug_str     0x000004c6      0x242 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .debug_str     0x000004c6      0x1c7 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
- .debug_str     0x000004c6      0x1aa C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+ .debug_str     0x000004c4      0x1a6 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
+ .debug_str     0x000004c4      0x247 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .debug_str     0x000004c4      0x1c7 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+ .debug_str     0x000004c4      0x1aa C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
 .debug_line_str
-                0x00000000      0x30a
+                0x00000000      0x308
  .debug_line_str
-                0x00000000      0x30a C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
+                0x00000000      0x308 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
                                 0x216 (size before relaxing)
  .debug_line_str
-                0x0000030a      0x222 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
+                0x00000308      0x222 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
  .debug_line_str
-                0x0000030a      0x225 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
+                0x00000308      0x21f C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
  .debug_line_str
-                0x0000030a      0x200 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+                0x00000308      0x200 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
  .debug_line_str
-                0x0000030a      0x200 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
+                0x00000308      0x200 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clz.o)
 
-.debug_frame    0x00000000       0xc8
+.debug_frame    0x00000000       0xcc
  .debug_frame   0x00000000       0x54 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(muldf3.o)
  .debug_frame   0x00000054       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(fixunsdfsi.o)
- .debug_frame   0x00000074       0x34 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatunsidf.o)
- .debug_frame   0x000000a8       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000074       0x38 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(floatsidf.o)
+ .debug_frame   0x000000ac       0x20 C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a(_clzsi2.o)

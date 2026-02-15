@@ -9,7 +9,7 @@ extern "C" {
 extern uint32_t ulp___clz_tab;
 extern uint32_t ulp___clzsi2;
 extern uint32_t ulp___fixunsdfsi;
-extern uint32_t ulp___floatunsidf;
+extern uint32_t ulp___floatsidf;
 extern uint32_t ulp___muldf3;
 extern uint32_t ulp___stack_top;
 extern uint32_t ulp___start;

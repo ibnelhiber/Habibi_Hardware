@@ -50,7 +50,7 @@ int main(void)
     if(flags & TAKE_CONTROL_BIT)
     {
         ulp_riscv_gpio_output_level(LED_GPIO, 1);
-        uint32_t timeOn = (validatedDutyCycle/HUNDRED_PERCENT_DUTY) * 1000;
+        double timeOn = (validatedDutyCycle/HUNDRED_PERCENT_DUTY) * 1000;
         ulp_riscv_gpio_init(PWM_GPIO);
         ulp_riscv_gpio_output_enable(PWM_GPIO);
         ulp_riscv_gpio_set_output_mode(PWM_GPIO, RTCIO_MODE_OUTPUT);
@@ -67,14 +67,14 @@ int main(void)
                 ulp_riscv_gpio_output_disable(PWM_GPIO);
                 ulp_riscv_gpio_deinit(PWM_GPIO);
 
+                ulp_riscv_gpio_output_level(LED_GPIO, 0);
                 break;
             }
 
-
             ulp_riscv_gpio_output_level(PWM_GPIO, 1);
-            ulp_riscv_delay_cycles(timeOn * ULP_RISCV_CYCLES_PER_US); // 500 ms
+            ulp_riscv_delay_cycles((int)timeOn * ULP_RISCV_CYCLES_PER_US); // 500 ms
             ulp_riscv_gpio_output_level(PWM_GPIO, 0);
-            ulp_riscv_delay_cycles((100 - timeOn) * ULP_RISCV_CYCLES_PER_US); // 500 ms
+            ulp_riscv_delay_cycles((1000 - (int)timeOn) * ULP_RISCV_CYCLES_PER_US); // 500 ms
         }
 
     }
