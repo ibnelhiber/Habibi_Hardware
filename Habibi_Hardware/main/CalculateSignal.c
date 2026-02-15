@@ -27,12 +27,12 @@ void CalculateDutyCycleTask(void* param)
 			xSemaphoreGive(pwm_sem); 
 		}
 
-		// if(runInfo->runTime == injectFaultTime)
-		// {
-		// 	runInfo->dutyCycle = HUNDRED_PERCENT_DUTY;
-		// 	ulp_dutyCycle = runInfo->dutyCycle;
-		// 	xSemaphoreGive(pwm_sem); 
-		// }
+		if(runInfo->runTime == injectFaultTime)
+		{
+			runInfo->dutyCycle = HUNDRED_PERCENT_DUTY;
+			ulp_dutyCycle = runInfo->dutyCycle;
+			xSemaphoreGive(pwm_sem); 
+		}
 
 		printf("Current Duty Cycle: %ld\n", runInfo->dutyCycle);
 

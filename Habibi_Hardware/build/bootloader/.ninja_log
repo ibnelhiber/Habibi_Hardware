@@ -224,3 +224,10 @@
 942	1211	7928473796764789	C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/bootloader/.bin_timestamp	5eeae64d8db730bc
 1211	1295	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	f86974d8b18243a2
 1211	1295	0	C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	f86974d8b18243a2
+20	443	7928476929610237	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	7ca78b777b8a03d2
+444	876	7928476933966721	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	4dfc7784183106b5
+877	1408	7928476938949977	bootloader.elf	58789135972e4601
+1409	1662	7928476941838454	.bin_timestamp	5eeae64d8db730bc
+1409	1662	7928476941838454	C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/bootloader/.bin_timestamp	5eeae64d8db730bc
+1662	1750	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	f86974d8b18243a2
+1662	1750	0	C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	f86974d8b18243a2
