@@ -153,6 +153,13 @@ C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/esp_bootloader_form
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/esp_bootloader_format/CMakeFiles/install/local.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/esp_bootloader_format/CMakeFiles/install/strip.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/blank_ota_data.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/read-otadata.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/read_otadata.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/erase-otadata.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/erase_otadata.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/otadata-flash.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/encrypted-otadata-flash.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/edit_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/rebuild_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/app_update/CMakeFiles/list_install_components.dir
@@ -801,6 +808,7 @@ C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/touch_element/CMake
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/touch_element/CMakeFiles/install.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/touch_element/CMakeFiles/install/local.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/touch_element/CMakeFiles/install/strip.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/ulp/CMakeFiles/__idf_ulp.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/ulp/CMakeFiles/edit_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/ulp/CMakeFiles/rebuild_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/ulp/CMakeFiles/list_install_components.dir
@@ -822,6 +830,8 @@ C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/wifi_provisioning/C
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/wifi_provisioning/CMakeFiles/install/local.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/wifi_provisioning/CMakeFiles/install/strip.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/__idf_main.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app_artifacts.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/edit_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/rebuild_cache.dir
 C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/list_install_components.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app-complete.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-build.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-configure.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-download.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-install.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-patch.rule"
+		},
+		{
+			"file" : "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ulp_app"
+		],
+		"name" : "ulp_app"
+	}
+}

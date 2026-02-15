@@ -28790,7 +28790,10 @@
                                 "help": "Bytes of memory to reserve for ULP Co-processor firmware & data.\nData is reserved at the beginning of RTC slow memory.",
                                 "id": "ULP_COPROC_RESERVE_MEM",
                                 "name": "ULP_COPROC_RESERVE_MEM",
-                                "range": null,
+                                "range": [
+                                    32,
+                                    8176
+                                ],
                                 "title": "RTC slow memory reserved for coprocessor",
                                 "type": "int"
                             }
@@ -28831,7 +28834,10 @@
                                 "help": "Set the ULP RISC-V I2C read/write timeout. Set this value to -1\nif the ULP RISC-V I2C read and write APIs should wait forever.\nPlease note that the tick rate of the ULP co-processor would be\ndifferent than the OS tick rate of the main core and therefore\ncan have different timeout value depending on which core the API\nis invoked on.",
                                 "id": "ULP_RISCV_I2C_RW_TIMEOUT",
                                 "name": "ULP_RISCV_I2C_RW_TIMEOUT",
-                                "range": null,
+                                "range": [
+                                    -1,
+                                    4294967295
+                                ],
                                 "title": "Set timeout for ULP RISC-V I2C transaction timeout in ticks.",
                                 "type": "int"
                             }

@@ -1,0 +1,13 @@
+# Target labels
+ ulp_app
+# Source files and their labels
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/CMakeFiles/ulp_app-complete.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-build.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-configure.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-download.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-install.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-mkdir.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-patch.rule
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app-prefix/src/ulp_app-stamp/ulp_app-update.rule

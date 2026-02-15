@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "app-template",
-    "project_version":    "1",
+    "project_version":    "94a6014-dirty",
     "project_path":       "C:/Users/moham/Habibi_Hardware/Habibi_Hardware",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build",
@@ -1175,12 +1175,12 @@
             "dir": "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [],
+            "reqs": [ "ulp", "esp_https_ota", "esp_http_client", "app_update", "nvs_flash", "esp_wifi", "mbedtls" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/main.c" ],
+            "sources": [ "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/main.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/Startup.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/PWM.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/CalculateSignal.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/wifi.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main/github_ota.c", "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/ulp_app.bin.S" ],
             "include_dirs": []
         },
         "mbedtls": {
@@ -1443,15 +1443,15 @@
             "target": "___idf_ulp",
             "prefix": "idf",
             "dir": "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_ulp",
             "reqs": [ "driver", "esp_adc" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
-            "include_dirs": []
+            "file": "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/ulp/libulp.a",
+            "sources": [ "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_common/ulp_common.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_common/ulp_adc.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_riscv.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_riscv_lock.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp/ulp_riscv/ulp_riscv_i2c.c" ],
+            "include_dirs": [ "ulp_common/include", "ulp_riscv/include", "ulp_riscv/shared/include" ]
         },
         "unity": {
             "alias": "idf::unity",
@@ -2710,7 +2710,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "ulp_common/include", "ulp_riscv/include", "ulp_riscv/shared/include" ]
         },
         "unity": {
             "alias": "idf::unity",
@@ -2802,7 +2802,7 @@
             "prefix": "idf",
             "dir": "C:/Users/moham/Habibi_Hardware/Habibi_Hardware/main",
             "lib": "__idf_main",
-            "reqs": [],
+            "reqs": [ "ulp", "esp_https_ota", "esp_http_client", "app_update", "nvs_flash", "esp_wifi", "mbedtls" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],

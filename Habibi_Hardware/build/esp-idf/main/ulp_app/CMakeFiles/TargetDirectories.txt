@@ -1,0 +1,5 @@
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app/CMakeFiles/ulp_app.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app/CMakeFiles/ld_script.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app/CMakeFiles/build.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app/CMakeFiles/edit_cache.dir
+C:/Users/moham/Habibi_Hardware/Habibi_Hardware/build/esp-idf/main/ulp_app/CMakeFiles/rebuild_cache.dir
