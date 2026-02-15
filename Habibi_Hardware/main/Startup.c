@@ -19,7 +19,7 @@ void Startup()
 		if (wifi_connect_blocking() == ESP_OK) 
 		{
 			github_ota_cfg_t cfg = {
-				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/blob/94a60143389f7069fd64d65568d705784e2d494f/Habibi_Hardware/build/app-template.bin,
+				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/releases/download/uncorrupted-clean-code/app-template.bin",
 				.reboot_after_success = true,
 			};
     		github_ota_flash_from_url(&cfg);
