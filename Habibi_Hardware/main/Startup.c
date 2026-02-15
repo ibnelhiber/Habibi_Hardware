@@ -16,10 +16,11 @@ void Startup()
 	if(rtc_startup_reason == DATA_CORRUPTION)
 	{
 		printf("Recovering from corrupted data\n");
+		printf("Entering Clean Code!\n");
 		if (wifi_connect_blocking() == ESP_OK) 
 		{
 			github_ota_cfg_t cfg = {
-				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/releases/download/clean-code-version/app-template.bin",
+				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/releases/download/clean-code-version-1/app-template.bin",
 				.reboot_after_success = true,
 			};
     		github_ota_flash_from_url(&cfg);
