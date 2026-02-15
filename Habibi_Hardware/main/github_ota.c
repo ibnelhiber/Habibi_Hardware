@@ -26,12 +26,18 @@ esp_err_t github_ota_flash_from_url(const github_ota_cfg_t *cfg)
 
         .user_agent = "esp32s3-ota",
         .keep_alive_enable = true,
+        .buffer_size = 12288,
+        .buffer_size_tx = 4096,
+        .timeout_ms = 60000,
+        .disable_auto_redirect = false,
+        .max_redirection_count = 8
+
     };
 
     esp_https_ota_config_t ota_cfg = {
         .http_config = &http_cfg,
-        .partial_http_download = true,
-        .max_http_request_size = 4096,
+        .partial_http_download = false,
+        .max_http_request_size = 32768,
     };
 
     ESP_LOGW(TAG, "Starting HTTPS OTA from:\n%s", cfg->firmware_url);
@@ -41,6 +47,7 @@ esp_err_t github_ota_flash_from_url(const github_ota_cfg_t *cfg)
         ESP_LOGW(TAG, "OTA successful");
         if (cfg->reboot_after_success) {
             ESP_LOGW(TAG, "Rebooting...");
+            rtc_startup_reason = NORMAL_STARTUP;
             esp_restart();
         }
         return ESP_OK;

@@ -19,7 +19,7 @@ void Startup()
 		if (wifi_connect_blocking() == ESP_OK) 
 		{
 			github_ota_cfg_t cfg = {
-				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/clean-code-version-2/app-template.bin",
+				.firmware_url = "https://github.com/ibnelhiber/Habibi_Hardware/releases/download/clean-code-version-2/app-template.bin",
 				.reboot_after_success = true,
 			};
     		github_ota_flash_from_url(&cfg);
@@ -30,6 +30,5 @@ void Startup()
 		
 	}
 
-	rtc_startup_reason = NORMAL_STARTUP;
 
 }
